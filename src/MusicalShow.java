@@ -12,3 +12,12 @@ public class MusicalShow extends Show {
     void PrintLibrettoText(){
         System.out.println(librettoText);
     }
+
+    @Override
+    public String toString() {
+        return "musicAuthor{" +
+                "name - " + musicAuthor.name +
+                "surname - "+ musicAuthor.surname+
+                '}';
+    }
+}
