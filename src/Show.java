@@ -20,7 +20,7 @@ public class Show {
     }
 
 
-    void addNewActor(String name, String surname, Gender gender, int height){
+    void addActor(String name, String surname, Gender gender, int height){
         Actor newActor = new Actor(name, surname, gender, height);
         if (listOfActors.contains(newActor)) {
             System.out.println("Предупреждение: Актер " + name + " " + surname + " уже есть в спектакле!");
