@@ -12,13 +12,11 @@ public class Show {
         this.director = director;
         this.listOfActors = listOfActors;
     }
-
-
-    @Override
-    public  String toString() {
-        return "Show{" +
-                "listOfActors=" + listOfActors +
-                '}';
+    
+    void printActors() {
+        for (Actor actor : listOfActors){
+            System.out.println(actor.toString());
+        }
     }
 
 
