@@ -1,9 +1,10 @@
 import java.util.ArrayList;
+
 public class Show {
     String title;
     int duration;
     Director director;
-    ArrayList <Actor>  listOfActors;
+    ArrayList<Actor> listOfActors;
 
     public Show(String title, int duration, Director director, ArrayList<Actor> listOfActors) {
         this.title = title;
@@ -12,6 +13,13 @@ public class Show {
         this.listOfActors = listOfActors;
     }
 
+
+    @Override
+    public  String toString() {
+        return "Show{" +
+                "listOfActors=" + listOfActors +
+                '}';
+    }
 
 
 }
