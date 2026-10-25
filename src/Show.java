@@ -20,13 +20,12 @@ public class Show {
     }
 
 
-    void addActor(String name, String surname, Gender gender, int height){
-        Actor newActor = new Actor(name, surname, gender, height);
+    void addActor(Actor newActor){
         if (listOfActors.contains(newActor)) {
-            System.out.println("Предупреждение: Актер " + name + " " + surname + " уже есть в спектакле!");
+            System.out.println("Актер " + newActor.name + " " + newActor.surname + " уже есть в спектакле!");
         } else {
             listOfActors.add(newActor);
-            System.out.println("Актер " + name + " " + surname + " успешно добавлен.");
+            System.out.println("Актер " + newActor.name + " " + newActor.surname + " успешно добавлен.");
         }
     }
 
