@@ -19,7 +19,6 @@ public class Show {
         }
     }
 
-
     void addActor(Actor newActor) {
         if (listOfActors.contains(newActor)) {
             System.out.println("Актер " + newActor.name + " " + newActor.surname + " уже есть в спектакле!");

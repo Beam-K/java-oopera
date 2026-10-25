@@ -11,7 +11,7 @@ public class MusicalShow extends Show {
         this.librettoText = librettoText;
     }
 
-    void printLibrettoText(){
+    void printLibrettoText() {
         System.out.println(librettoText);
     }
 
@@ -19,7 +19,7 @@ public class MusicalShow extends Show {
     public String toString() {
         return "musicAuthor{" +
                 "name - " + musicAuthor.name +
-                "surname - "+ musicAuthor.surname+
+                "surname - " + musicAuthor.surname +
                 '}';
     }
 }

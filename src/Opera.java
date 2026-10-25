@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Opera extends MusicalShow{
+public class Opera extends MusicalShow {
     int choirSize;
 
     public Opera(MusicAuthor musicAuthor, String librettoText, String title, int duration, Director director,

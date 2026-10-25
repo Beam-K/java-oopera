@@ -14,7 +14,6 @@ public class Main {
         MusicAuthor musicAuthor = new MusicAuthor("Варвара", "Мышкина", Gender.FEMALE);
         Choreographer choreographer = new Choreographer("Анастасия", "Рыбкина", Gender.FEMALE);
 
-
         Show ordinary = new Show(
                 "Обычное шоу",
                 140,
@@ -40,7 +39,6 @@ public class Main {
                 choreographer
         );
 
-
         ordinary.addActor(actor1);
         ordinary.addActor(actor3);
 
@@ -62,7 +60,5 @@ public class Main {
 
         opera.printLibrettoText();
         ballet.printLibrettoText();
-
-
     }
 }
