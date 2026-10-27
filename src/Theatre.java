@@ -52,8 +52,12 @@ public class Theatre {
         opera.printActors();
         ballet.printActors();
 
-        ballet.replaceActor(actor2, actor3.surname);
+        ballet.replaceActor(actor2, "Чижиков");
         ballet.printActors();
+
+        /*System.out.println(director2.toString()); можно и так, но это бессмысленно, тк sout автоматически вызывает
+        toString() у любого объекта*/
+        System.out.println(director2);
 
         ordinary.replaceActor(actor2, actor1.surname);
         ordinary.replaceActor(actor1, actor1.surname);
