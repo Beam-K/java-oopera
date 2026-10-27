@@ -11,7 +11,7 @@ public class Director extends Person {
         return "Director{" +
                 "surname='" + surname + '\'' +
                 ", name='" + name + '\'' +
-                ", gender=" + gender + '\'' +
+                ", gender=" + gender  + //подредактировала вывод. убрала ковычку не нужную
                 ", numberOfShows=" + numberOfShows +
                 '}';
     }
