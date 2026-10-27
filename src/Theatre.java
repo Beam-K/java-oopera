@@ -58,9 +58,10 @@ public class Theatre {
         /*System.out.println(director2.toString()); можно и так, но это бессмысленно, тк sout автоматически вызывает
         toString() у любого объекта*/
         System.out.println(director2);
-        
+
         ordinary.replaceActor(actor2, "Ябеда");
         ordinary.replaceActor(actor1, actor3.getSurname());
+        ordinary.printActors();
 
         opera.printLibrettoText();
         ballet.printLibrettoText();
