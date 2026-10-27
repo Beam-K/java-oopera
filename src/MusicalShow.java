@@ -18,8 +18,8 @@ public class MusicalShow extends Show {
     @Override
     public String toString() {
         return "musicAuthor{" +
-                "name - " + musicAuthor.name +
-                "surname - " + musicAuthor.surname +
+                "name - " + musicAuthor.getName() +
+                "surname - " + musicAuthor.getSurname() +
                 '}';
     }
 }

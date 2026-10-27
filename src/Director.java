@@ -9,8 +9,8 @@ public class Director extends Person {
     @Override
     public String toString() {
         return "Director{" +
-                "surname='" + surname + '\'' +
-                ", name='" + name + '\'' +
+                "surname='" + getSurname() + '\'' +
+                ", name='" + getName() + '\'' +
                 ", gender=" + gender  + //подредактировала вывод. убрала ковычку не нужную
                 ", numberOfShows=" + numberOfShows +
                 '}';
